@@ -31,15 +31,18 @@ const carro = {
         }
     },
 
-    condutores:[{
-        nome:"Junior",
-        idade:19
+    condutores: [{
+        nome: "Junior",
+        idade: 19
     }],
 
-    calcularValorSeguro(){
+    calcularValorSeguro() {
         console.log("OI");
     }
 }
+
+
+console.log(carro.proprietario.endereco.logradouro);
 
 console.log(carro.calcularValorSeguro());
 
